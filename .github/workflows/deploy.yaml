@@ -123,7 +123,7 @@ jobs:
             cd /home/ubuntu/
             sudo rm -rf MERN-ECOMMERCE || true
             git clone https://github.com/Nahsc0/e-marche.git
-            cd ecomm/client
+            cd e-marche
             touch .env
             echo REACT_APP_API_URL=http://"${{ needs.deploy-infra.outputs.SERVER_PUBLIC_IP }}" > .env
             npm install
