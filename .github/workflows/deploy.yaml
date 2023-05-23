@@ -75,7 +75,7 @@ jobs:
             sudo ufw allow 'Nginx Full'
             sudo ufw --force enable 
             cd /home/ubuntu
-            sudo rm -rf e-marche
+            sudo rm -rf e-marche MERN
             git clone https://github.com/Nahsc0/e-marche.git 
             cd e-marche
             cd server
