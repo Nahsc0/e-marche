@@ -75,9 +75,9 @@ jobs:
             sudo ufw allow 'Nginx Full'
             sudo ufw --force enable 
             cd /home/ubuntu
-            sudo rm -rf memories-server
-            git clone http://github.com/Nahsc0/e-marche.git MERN
-            cd MERN
+            sudo rm -rf e-marche
+            git clone https://github.com/Nahsc0/e-marche.git 
+            cd e-marche
             cd server
             npm install
             sudo rm /etc/nginx/sites-available/default
