@@ -76,8 +76,8 @@ jobs:
             sudo ufw --force enable 
             cd /home/ubuntu
             sudo rm -rf memories-server
-            git clone http://github.com/Nahsc0/e-marche.git
-            cd e-marche
+            git clone http://github.com/Nahsc0/e-marche.git MERN
+            cd MERN
             cd server
             npm install
             sudo rm /etc/nginx/sites-available/default
