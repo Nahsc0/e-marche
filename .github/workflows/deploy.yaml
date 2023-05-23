@@ -78,6 +78,7 @@ jobs:
             sudo rm -rf e-marche MERN
             git clone https://github.com/Nahsc0/e-marche.git 
             cd e-marche
+            cd ecomm
             cd server
             npm install
             sudo rm /etc/nginx/sites-available/default
