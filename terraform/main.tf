@@ -6,7 +6,7 @@ resource "aws_instance" "server_instance" {
   vpc_security_group_ids = [aws_security_group.general-sg.id]
 
   tags = {
-    "Name" = "client"
+    "Name" = "server"
   }
 }
 
@@ -18,7 +18,7 @@ resource "aws_instance" "client_instance" {
   vpc_security_group_ids = [aws_security_group.general-sg.id]
 
   tags = {
-    "Name" = "server"
+    "Name" = "client"
   }
 }
 
